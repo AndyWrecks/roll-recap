@@ -1,11 +1,7 @@
 import * as _ from 'lodash';
 
 function component() {
-    const element = document.createElement('div');
-
-    element.innerHTML = _.join(['Hello', 'webpack 7'], ' ');
-
-    return element;
+    console.log('Hello Foundry')
 }
 
-document.body.appendChild(component());
+component();
